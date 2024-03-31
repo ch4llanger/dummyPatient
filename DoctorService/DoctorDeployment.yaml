@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: doctor
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: doctor
+  template:
+    metadata:
+      labels:
+        app: doctor
+    spec:
+      containers:
+      - name: doctor
+        image:  hakan.tutar/doctor:latest
+        ports:
+        - containerPort: 5002
