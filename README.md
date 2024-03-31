@@ -1,10 +1,5 @@
 
 ## Gereksinimler
-
-- RabbitMQ 3.13.0
-- PostgreSQL 16.1
-- Kubernetes 1.29
-- .NET 6 Runtime / SDK
 - TCP 5001, 5002, 5003, 5004, 5005 port'larının kullanımda olmaması
 
 ## API
